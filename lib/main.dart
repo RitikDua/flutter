@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
  	final wordPair=WordPair.random();
 	return MaterialApp(
 			home:Scaffold(
-				appBar:AppBar(title: Text('Welcome to flutter'),	),
 			body:Center(child:RandomWords(),)
 			));
   } }
