@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 @override
   Widget build(BuildContext context) {
  	final wordPair=WordPair.random();
-	return MaterialApp(
+	return MaterialApp(theme:ThemeData(primaryColor: Colors.white),
 			home:Scaffold(
 			body:Center(child:RandomWords(),)
 			));
